@@ -1,0 +1,197 @@
+body {
+    background-image: url('./imgs/backgroundtwo.png');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.teleconsulta {
+    font-family: "Alatsi", sans-serif;
+    font-size: 800;
+    color: black;
+    
+}
+
+.sobrehealth {
+    font-family: "Damion", cursive;
+    font-weight: 500;
+    font-size: 2.2rem;
+    
+}
+
+.sobrehero{
+    max-width: 60%;
+}
+
+.navbar {
+    font-size: x-large;
+    position: fixed;
+    top: 10;
+    width: 100%;
+    background-color: #fff;
+    z-index: 9999;
+}
+
+.mySlides {
+    text-align: center;
+    z-index: 1;
+}
+
+.mySlides img {
+    display: inline-block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.hero {
+    margin-top: 50px;
+    margin: 0 auto;
+}
+
+.doctorwho {
+    width: 200px;
+    height: auto;
+}
+
+.piluleswho {
+    font-family: "Alatsi", sans-serif;
+    font-size: 800;
+    color: black;
+    width: 200px;
+    height: auto;
+}
+
+.pilulas {
+    font-family: "Alatsi", sans-serif;
+    font-size: 800;
+    color: black;
+}
+
+.vitaminas {
+    font-family: "Alatsi", sans-serif;
+    font-size: 800;
+    color: black;
+}
+
+.vitaminaswho {
+    font-family: "Alatsi", sans-serif;
+    font-size: 800;
+    color: black;
+    width: 200px;
+    height: auto;
+
+}
+
+.container {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.container2 {
+    width: 40%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #ffffff;
+    padding: 20px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.navbar li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.navbar li:last-child {
+    margin-right: 0;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #555;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    color: #333;
+}
+
+.hero {
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.slideshow-container {
+    position: relative;
+    max-width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.mySlides {
+    display: none;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+.contato2 {
+    font-family: "Alatsi", sans-serif;
+    font-size: 800;
+}
+
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+.about, .products, .contact {
+    padding: 50px 0;
+}
+
+footer {
+    background-color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.contato1 {
+    font-family: "Alatsi", sans-serif;
+    font-weight: 600;
+    font-size: 400;
+}
+
+.social-links {
+    margin-bottom: 10px;
+}
+
+.social-links li {
+    margin-right: 10px;
+}
+
+.social-links li a {
+    display: block;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
